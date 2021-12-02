@@ -28,6 +28,7 @@ func main() {
 
 	e.GET("/", Index)
 
+	// If you are not using port 8080, please change your port number.
 	e.Logger.Fatal(e.Start(":8080"))
 }
 
