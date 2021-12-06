@@ -2,5 +2,5 @@
 
 ```
 sh init.sh
-go run app.go
+go run main.go
 ```
