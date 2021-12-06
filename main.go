@@ -28,8 +28,8 @@ func main() {
 
 	e.GET("/", Index)
 
-	// If you are not using port 8080, please change your port number.
-	e.Logger.Fatal(e.Start(":8080"))
+	// If you are not using port 1323, please change to your port number.
+	e.Logger.Fatal(e.Start(":1323"))
 }
 
 func Index(c echo.Context) error {
