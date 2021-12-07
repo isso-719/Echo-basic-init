@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ .greeting }}, {{ .user }}</h1>
+    <form method="post" action="/form">
+        <input type="text" name="onamae">
+        <input type="submit" value="送信">
+    </form>
 </body>
 </html>
